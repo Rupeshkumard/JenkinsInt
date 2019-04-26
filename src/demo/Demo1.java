@@ -13,9 +13,10 @@ public class Demo1 {
 		driver.get("http://www.seleniumhq.org");
 		String s1 = driver.getTitle();
 		System.out.println(s1);
-		driver.findElement(By.xpath("//a[.='Download']")).click();
-		Thread.sleep(3000);
-		System.out.println(driver.getTitle());
+//		driver.findElement(By.xpath("//a[.='Download']")).click();
+//		Thread.sleep(3000);
+//		System.out.println(driver.getTitle());
+		System.out.println("modifying sourcecode");
 		driver.close();
 	}
 
